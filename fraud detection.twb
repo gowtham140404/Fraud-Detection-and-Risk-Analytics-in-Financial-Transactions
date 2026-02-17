@@ -1,0 +1,1890 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0109.0333                               -->
+<workbook original-version='18.1' source-build='2025.3.2 (20253.26.0109.0333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='fraud_risk_scoring_output' inline='true' name='federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='fraud_risk_scoring_output' name='textscan.1tfanop0lazuxq1f1ivlm0t5kqny'>
+            <connection class='textscan' directory='C:/Users/gowth/Downloads' filename='fraud_risk_scoring_output.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1tfanop0lazuxq1f1ivlm0t5kqny' name='fraud_risk_scoring_output.csv' table='[fraud_risk_scoring_output#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='real' name='Time' ordinal='0' />
+            <column datatype='real' name='V1' ordinal='1' />
+            <column datatype='real' name='V2' ordinal='2' />
+            <column datatype='real' name='V3' ordinal='3' />
+            <column datatype='real' name='V4' ordinal='4' />
+            <column datatype='real' name='V5' ordinal='5' />
+            <column datatype='real' name='V6' ordinal='6' />
+            <column datatype='real' name='V7' ordinal='7' />
+            <column datatype='real' name='V8' ordinal='8' />
+            <column datatype='real' name='V9' ordinal='9' />
+            <column datatype='real' name='V10' ordinal='10' />
+            <column datatype='real' name='V11' ordinal='11' />
+            <column datatype='real' name='V12' ordinal='12' />
+            <column datatype='real' name='V13' ordinal='13' />
+            <column datatype='real' name='V14' ordinal='14' />
+            <column datatype='real' name='V15' ordinal='15' />
+            <column datatype='real' name='V16' ordinal='16' />
+            <column datatype='real' name='V17' ordinal='17' />
+            <column datatype='real' name='V18' ordinal='18' />
+            <column datatype='real' name='V19' ordinal='19' />
+            <column datatype='real' name='V20' ordinal='20' />
+            <column datatype='real' name='V21' ordinal='21' />
+            <column datatype='real' name='V22' ordinal='22' />
+            <column datatype='real' name='V23' ordinal='23' />
+            <column datatype='real' name='V24' ordinal='24' />
+            <column datatype='real' name='V25' ordinal='25' />
+            <column datatype='real' name='V26' ordinal='26' />
+            <column datatype='real' name='V27' ordinal='27' />
+            <column datatype='real' name='V28' ordinal='28' />
+            <column datatype='real' name='Amount' ordinal='29' />
+            <column datatype='integer' name='Actual' ordinal='30' />
+            <column datatype='real' name='Fraud_Probability' ordinal='31' />
+            <column datatype='string' name='Risk_Level' ordinal='32' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V1]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V1</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V2]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V2</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V3]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V3</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V4]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V4</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V5]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V5</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V6</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V6]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V6</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V7]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V7</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V8]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V8</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V9]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V9</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V10]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V10</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V11</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V11]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V11</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V12</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V12]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V12</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V13</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V13]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V13</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V14</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V14]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V14</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V15</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V15]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V15</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V16</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V16]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V16</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V17]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V17</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V18]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V18</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V19</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V19]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V19</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V20]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V20</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V21</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V21]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V21</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V22</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V22]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V22</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V23</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V23]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V23</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V24</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V24]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V24</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V25]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V25</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V26</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V26]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V26</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V27</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V27]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V27</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>V28</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[V28]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>V28</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Amount]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>Amount</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actual</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Actual]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>Actual</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fraud_Probability</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fraud_Probability]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>Fraud_Probability</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Risk_Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Risk_Level]</local-name>
+            <parent-name>[fraud_risk_scoring_output.csv]</parent-name>
+            <remote-alias>Risk_Level</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Actual]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Investigated' datatype='integer' name='[Calculation_2023965781553153]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='IF [Risk_Level] = &quot;High Risk&quot;&#13;&#10;OR [Risk_Level] = &quot;Medium Risk&quot;&#13;&#10;THEN 1&#13;&#10;ELSE 0&#13;&#10;END' />
+      </column>
+      <column caption='True Positive ' datatype='integer' name='[Calculation_2023965789962247]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;IF [Actual] = 1 AND [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)' />
+      </column>
+      <column caption='True Negative ' datatype='integer' name='[Calculation_2023965790339080]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;IF [Actual] = 0 AND [Calculation_2023965781553153] = 0 THEN 1 ELSE 0 END&#13;&#10;)' />
+      </column>
+      <column caption='Flase Positive ' datatype='integer' name='[Calculation_2023965790457865]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;IF [Actual] = 0 AND [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)' />
+      </column>
+      <column caption='Flase Negative' datatype='integer' name='[Calculation_2023965790568458]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;IF [Actual] = 1 AND [Calculation_2023965781553153] = 0 THEN 1 ELSE 0 END&#13;&#10;)' />
+      </column>
+      <column caption='accuracy' datatype='real' name='[Calculation_2023965791408140]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(&#13;&#10;SUM(&#13;&#10;IF [Actual] = 1 AND [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)&#13;&#10;+&#13;&#10;SUM(&#13;&#10;IF [Actual] = 0 AND [Calculation_2023965781553153] = 0 THEN 1 ELSE 0 END&#13;&#10;)&#13;&#10;)&#13;&#10;/&#13;&#10;COUNT([Actual])' />
+      </column>
+      <column caption='PRECISION' datatype='real' name='[Calculation_2023965791973389]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;IF [Actual] = 1 AND [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)&#13;&#10;/&#13;&#10;SUM(&#13;&#10;IF [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)' />
+      </column>
+      <column caption='RECALL' datatype='real' name='[Calculation_2023965792026638]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#13;&#10;IF [Actual] = 1 AND [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)&#13;&#10;/&#13;&#10;SUM(&#13;&#10;IF [Actual] = 1 THEN 1 ELSE 0 END&#13;&#10;)' />
+      </column>
+      <column caption='F1 Score' datatype='real' name='[Calculation_2023965792399376]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='2 * (&#13;&#10;    [Calculation_2023965791973389] * [Calculation_2023965792026638]&#13;&#10;) /&#13;&#10;(&#13;&#10;    [Calculation_2023965791973389] + [Calculation_2023965792026638]&#13;&#10;)' />
+      </column>
+      <column caption='Fraud Probability' datatype='real' name='[Fraud_Probability]' role='measure' type='quantitative' />
+      <column caption='Risk Level' datatype='string' name='[Risk_Level]' role='dimension' type='nominal' />
+      <column caption='fraud_risk_scoring_output.csv' datatype='table' name='[__tableau_internal_object_id__].[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]' role='measure' type='quantitative' />
+      <column-instance column='[Actual]' derivation='None' name='[none:Actual:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/gowth/AppData/Local/Temp/TableauTemp/#TableauTemp_0s6ju8b1y350t31djtrlx0zb733y.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/17/2026 06:51:08 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Time</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time</remote-alias>
+              <ordinal>0</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>45484</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V1</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V1</remote-alias>
+              <ordinal>1</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V2</remote-alias>
+              <ordinal>2</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V3</remote-alias>
+              <ordinal>3</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V4</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V4</remote-alias>
+              <ordinal>4</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V5</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V5</remote-alias>
+              <ordinal>5</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V6</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V6</remote-alias>
+              <ordinal>6</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V7</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V7</remote-alias>
+              <ordinal>7</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V8</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V8]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V8</remote-alias>
+              <ordinal>8</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V9</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V9</remote-alias>
+              <ordinal>9</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V10</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V10</remote-alias>
+              <ordinal>10</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V11</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V11]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V11</remote-alias>
+              <ordinal>11</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V12</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V12</remote-alias>
+              <ordinal>12</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V13</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V13]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V13</remote-alias>
+              <ordinal>13</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V14</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V14]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V14</remote-alias>
+              <ordinal>14</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V15</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V15</remote-alias>
+              <ordinal>15</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V16</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V16]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V16</remote-alias>
+              <ordinal>16</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V17</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V17]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V17</remote-alias>
+              <ordinal>17</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V18</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V18</remote-alias>
+              <ordinal>18</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V19</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V19]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V19</remote-alias>
+              <ordinal>19</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V20</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V20]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V20</remote-alias>
+              <ordinal>20</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V21</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V21]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V21</remote-alias>
+              <ordinal>21</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V22</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V22]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V22</remote-alias>
+              <ordinal>22</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V23</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V23]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V23</remote-alias>
+              <ordinal>23</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V24</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V24</remote-alias>
+              <ordinal>24</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V25</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V25</remote-alias>
+              <ordinal>25</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V26</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V26]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V26</remote-alias>
+              <ordinal>26</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V27</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V27]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V27</remote-alias>
+              <ordinal>27</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>V28</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[V28]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>V28</remote-alias>
+              <ordinal>28</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Amount</remote-alias>
+              <ordinal>29</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6722</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Actual</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Actual]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Actual</remote-alias>
+              <ordinal>30</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fraud_Probability</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Fraud_Probability]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fraud_Probability</remote-alias>
+              <ordinal>31</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56962</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Risk_Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Risk_Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Risk_Level</remote-alias>
+              <ordinal>32</ordinal>
+              <family>fraud_risk_scoring_output.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Actual:ok]' type='palette'>
+            <map to='#d5d5d5'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#e03531'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='fraud_risk_scoring_output.csv' id='fraud_risk_scoring_output.csv_AE4488F0ADD84429B4A4CFD5EE3F5E47'>
+            <properties context=''>
+              <relation connection='textscan.1tfanop0lazuxq1f1ivlm0t5kqny' name='fraud_risk_scoring_output.csv' table='[fraud_risk_scoring_output#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='real' name='Time' ordinal='0' />
+                  <column datatype='real' name='V1' ordinal='1' />
+                  <column datatype='real' name='V2' ordinal='2' />
+                  <column datatype='real' name='V3' ordinal='3' />
+                  <column datatype='real' name='V4' ordinal='4' />
+                  <column datatype='real' name='V5' ordinal='5' />
+                  <column datatype='real' name='V6' ordinal='6' />
+                  <column datatype='real' name='V7' ordinal='7' />
+                  <column datatype='real' name='V8' ordinal='8' />
+                  <column datatype='real' name='V9' ordinal='9' />
+                  <column datatype='real' name='V10' ordinal='10' />
+                  <column datatype='real' name='V11' ordinal='11' />
+                  <column datatype='real' name='V12' ordinal='12' />
+                  <column datatype='real' name='V13' ordinal='13' />
+                  <column datatype='real' name='V14' ordinal='14' />
+                  <column datatype='real' name='V15' ordinal='15' />
+                  <column datatype='real' name='V16' ordinal='16' />
+                  <column datatype='real' name='V17' ordinal='17' />
+                  <column datatype='real' name='V18' ordinal='18' />
+                  <column datatype='real' name='V19' ordinal='19' />
+                  <column datatype='real' name='V20' ordinal='20' />
+                  <column datatype='real' name='V21' ordinal='21' />
+                  <column datatype='real' name='V22' ordinal='22' />
+                  <column datatype='real' name='V23' ordinal='23' />
+                  <column datatype='real' name='V24' ordinal='24' />
+                  <column datatype='real' name='V25' ordinal='25' />
+                  <column datatype='real' name='V26' ordinal='26' />
+                  <column datatype='real' name='V27' ordinal='27' />
+                  <column datatype='real' name='V28' ordinal='28' />
+                  <column datatype='real' name='Amount' ordinal='29' />
+                  <column datatype='integer' name='Actual' ordinal='30' />
+                  <column datatype='real' name='Fraud_Probability' ordinal='31' />
+                  <column datatype='string' name='Risk_Level' ordinal='32' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Fraud vs Non-Fraud Distribution'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='fraud_risk_scoring_output' name='federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx'>
+            <column aggregation='Sum' datatype='integer' name='[Actual]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' caption='Investigated' datatype='integer' name='[Calculation_2023965781553153]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='IF [Risk_Level] = &quot;High Risk&quot;&#13;&#10;OR [Risk_Level] = &quot;Medium Risk&quot;&#13;&#10;THEN 1&#13;&#10;ELSE 0&#13;&#10;END' />
+            </column>
+            <column caption='Risk Level' datatype='string' name='[Risk_Level]' role='dimension' type='nominal' />
+            <column-instance column='[Actual]' derivation='None' name='[none:Actual:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Risk_Level]' derivation='None' name='[none:Risk_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Actual]' derivation='Count' name='[pcto:cnt:Actual:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_2023965781553153]' derivation='Sum' name='[pcto:sum:Calculation_2023965781553153:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[pcto:cnt:Actual:qk:2]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[pcto:sum:Calculation_2023965781553153:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Risk_Level:nk]</rows>
+        <cols>([federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[pcto:cnt:Actual:qk:2] + [federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[pcto:sum:Calculation_2023965781553153:qk])</cols>
+      </table>
+      <simple-id uuid='{B5AA8C0D-EDD5-4737-8A7C-2D4FA7FE49AA}' />
+    </worksheet>
+    <worksheet name='Investigation Results'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='fraud_risk_scoring_output' name='federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx'>
+            <column aggregation='Sum' datatype='integer' name='[Actual]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' caption='Investigated' datatype='integer' name='[Calculation_2023965781553153]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='IF [Risk_Level] = &quot;High Risk&quot;&#13;&#10;OR [Risk_Level] = &quot;Medium Risk&quot;&#13;&#10;THEN 1&#13;&#10;ELSE 0&#13;&#10;END' />
+            </column>
+            <column caption='Risk Level' datatype='string' name='[Risk_Level]' role='dimension' type='nominal' />
+            <column-instance column='[Actual]' derivation='Count' name='[cnt:Actual:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Actual]' derivation='None' name='[none:Actual:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2023965781553153]' derivation='None' name='[none:Calculation_2023965781553153:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[cnt:Actual:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]</rows>
+        <cols>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Calculation_2023965781553153:ok]</cols>
+      </table>
+      <simple-id uuid='{A625893F-7F55-4575-8234-5CE95EC954B0}' />
+    </worksheet>
+    <worksheet name='Model Performance Metrics'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='fraud_risk_scoring_output' name='federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx'>
+            <column aggregation='Sum' datatype='integer' name='[Actual]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' caption='Investigated' datatype='integer' name='[Calculation_2023965781553153]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='IF [Risk_Level] = &quot;High Risk&quot;&#13;&#10;OR [Risk_Level] = &quot;Medium Risk&quot;&#13;&#10;THEN 1&#13;&#10;ELSE 0&#13;&#10;END' />
+            </column>
+            <column caption='PRECISION' datatype='real' name='[Calculation_2023965791973389]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(&#13;&#10;IF [Actual] = 1 AND [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)&#13;&#10;/&#13;&#10;SUM(&#13;&#10;IF [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)' />
+            </column>
+            <column caption='RECALL' datatype='real' name='[Calculation_2023965792026638]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(&#13;&#10;IF [Actual] = 1 AND [Calculation_2023965781553153] = 1 THEN 1 ELSE 0 END&#13;&#10;)&#13;&#10;/&#13;&#10;SUM(&#13;&#10;IF [Actual] = 1 THEN 1 ELSE 0 END&#13;&#10;)' />
+            </column>
+            <column caption='F1 Score' datatype='real' name='[Calculation_2023965792399376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='2 * (&#13;&#10;    [Calculation_2023965791973389] * [Calculation_2023965792026638]&#13;&#10;) /&#13;&#10;(&#13;&#10;    [Calculation_2023965791973389] + [Calculation_2023965792026638]&#13;&#10;)' />
+            </column>
+            <column caption='Risk Level' datatype='string' name='[Risk_Level]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2023965791973389]' derivation='User' name='[usr:Calculation_2023965791973389:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2023965792026638]' derivation='User' name='[usr:Calculation_2023965792026638:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2023965792399376]' derivation='User' name='[usr:Calculation_2023965792399376:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[usr:Calculation_2023965792399376:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[usr:Calculation_2023965791973389:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[usr:Calculation_2023965792026638:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='271' />
+            <format attr='text-format' field='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[usr:Calculation_2023965792399376:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[usr:Calculation_2023965791973389:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[usr:Calculation_2023965792026638:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='subtotal' value='14' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[:Measure Names]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{FD5BFF79-5D49-427B-BDAF-026D4CDC69D9}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='1200' minheight='800' minwidth='1200' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98004' id='9' param='horz' type-v2='layout-flow' w='98666' x='667' y='998'>
+            <zone h='98004' id='7' type-v2='layout-basic' w='93833' x='667' y='998'>
+              <zone h='24501' id='3' name='Model Performance Metrics' w='93833' x='667' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49002' id='5' name='Investigation Results' w='93833' x='667' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='24501' id='6' name='Fraud vs Non-Fraud Distribution' w='93833' x='667' y='25499'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='58' h='98004' id='8' is-fixed='true' param='vert' type-v2='layout-flow' w='4833' x='94500' y='998'>
+              <zone h='8978' id='10' name='Fraud vs Non-Fraud Distribution' pane-specification-id='1' param='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]' type-v2='color' w='4833' x='94500' y='998'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='11' param='vert' type-v2='layout-flow' w='98666' x='667' y='998'>
+                <zone fixed-size='202' h='24501' id='3' is-fixed='true' name='Model Performance Metrics' w='93833' x='667' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='203' h='24501' id='6' is-fixed='true' name='Fraud vs Non-Fraud Distribution' w='93833' x='667' y='25499'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8978' id='10' name='Fraud vs Non-Fraud Distribution' pane-specification-id='1' param='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]' type-v2='color' w='4833' x='94500' y='998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49002' id='5' is-fixed='true' name='Investigation Results' w='93833' x='667' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8B351810-1A5F-43DE-89C0-AC4F53AAD9C6}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='Fraud vs Non-Fraud Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='100'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]</field>
+            <field>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:qk]</field>
+            <field>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Risk_Level:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{64AF493B-0F01-4DDD-B578-9C7EE0031BE5}' />
+    </window>
+    <window class='worksheet' name='Investigation Results'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[Clipboard_20260217T125234].[none:Investigated:nk]</field>
+            <field>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]</field>
+            <field>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Calculation_2023965781553153:ok]</field>
+            <field>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Risk_Level:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9B477CD5-5120-43A1-A0B1-2BE651CDEAE5}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Fraud vs Non-Fraud Distribution'>
+          <highlight>
+            <color-one-way>
+              <field>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[none:Actual:ok]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Investigation Results' />
+        <viewpoint name='Model Performance Metrics' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{339E2ACF-EFE6-4E12-8CC2-547432CCB374}' />
+    </window>
+    <window class='worksheet' name='Model Performance Metrics'>
+      <cards>
+        <edge name='left'>
+          <strip size='275'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ykdfcn1nkp3wh1ch7l2f0sry6bx].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{870986FF-FBF2-4CD7-89C9-2D79425D0745}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='147' name='Fraud vs Non-Fraud Distribution' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAACTCAYAAADYxhZeAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAASu0lEQVR4nO3de1gU973H8XeyUhaXq4oiCgKiIkgEAa1GExs9eDBJsdiGo9UjraZtLq1N
+      NE3U1CQ2JLXa+nhOTlKb2AeqptHGC14jMWrRxFpRNqhAgIBiuCtycQWFyZ4/lpu4qMAK7M73
+      9Tw8T3Z2ZueXx/ns/GZ2vr/fA0aj0YgQKvVgTzdAiJ4kARCqJgEQqiYBEKomARCqJgEQqiYB
+      EKomAbAyqampPd0EmyIBEKomARCqJgEQqiYBEKomARCqJgEQqiYBEKomARCqJgEQqiYBEKom
+      ARCqJgEQqiYBEKomARCqJgEQqiYBEKomARCqJgEQqiYBEKr2wN3GBpUaVGHL7hoA0bukpqYS
+      Hh7e083otJqaGpycnHq6Gc2kCyRUrU9PN0B03MXx43q6CV1S0dMNaEW1Z4B6Qw11Sk+3ove0
+      Q616bQCq0neTUmDunQJSElNoeaucI+uXsfV8xz7//EfrOFLesfYkJia2+tvF4awy6tusV35k
+      Pcs60JiOtkNYVq8NQG2hnhyz58oKcr7IaXUadWLUtNlEeN7/9tT6RxMdbfqLmjKEmuQ/8upG
+      PYZW6zmNmsbs+90YYTE2cA2gxXNM99wVsdO54ura+MI1guhfDcdx9RoO5ocQ49vYGs8xWO89
+      GvWxgQBUkb77n/Do93nIpWmZwuVzyezak8LX1YC9OyEThtLf+ymmB7VsqVRf5Pg/t3PoVD7F
+      N+zxmfxTfhUbiO6e992PoIcc2FfVqjXpu/knj/L9psbUX+J44mb2fV0NgPPQCUTGPknYAI35
+      j1SK+GLnl7jNiGJ077lbaLNsIAC1FOr1ML4lACXJq/l9WhA//8UqFrnZQb2Bzze+SNbgp1pt
+      V8KxpH/xw3nP8ttYLRqliL3xa0jKWsfcgHvdt4Hc7FrcWq1fW6hHz/jGAChkbP0z+hGLWbVo
+      IHbUY/hGz+cXKmCAu9nP0ye8T2bYUhbKwd8tenUA9JuXsWxr26X1XGM0Ye1tpGRwKNmZ2Dei
+      Gd30VW6nQ2fXdkUPps6PJcKj8aXGk/AIN/bV3UvL6jGUXSJtfwJ7HGNZ6dveetcoK7HD57GB
+      mHZvh25oBJFDzX/mpb3vcNDzaZaG3Ps5SHRNrw5AyLy3WRjSdqmejT8/3f5G5RfJGzmROffh
+      GDIF8ltqqyp5YEgoj0Y+z5sRTQe3OS5ETPdi1fo1GGbMIGLMcLwG6tqs/y21NZXkpb7LhtKZ
+      rFzoSTudI3Ef9OoA9DZNgTTk7mD9+1fxGtX/Dge/iS5kIW8FFJNzWs/xzf8g/Yo7kYt+RqSv
+      tnGNKjI/S6K4tIrhM/3Q3vHThKX12tugneY+mCHZmXx1H39c0vnHsPhpNw7GJ3C6+u470mgH
+      E/BwFP/94u9Y/Zwf//p7Ci23/t0YN2sBz726GK9P40nQG+7wScLSbC8AmmCiphWQuOE439TU
+      UV93hbzjm0jSW3Y3LSHYwInL7YWgiqILV2/5sUyjdcDebLs9iXrpeQYdfEtC0I1ssAukwTNq
+      Mc8f38u2P+6j3H4oE6b/iJkhx0m38J5MIdjB+jUbUJY8zeSBbTtE9lSnrmX9exq8Az1xvHmF
+      7K/qefTFpZi7B4SdF088/2M+XPsOOxyfJ8ZfLobvN9U8Dq3f+Cz68e8SF9wDO1fqqKmpQ8EO
+      nWvbi+COSU1Nxf3Zn1msaWpne10gqsg/l8fVVv2O+kt72Z89nrARPdQkjRYnV1dcu3jwC8uz
+      wS6QPVw+zJ83vcsV7LBT6qnvP5Y5L80n2EZusQz795mebkKn9baCGBsMgBbfqYtYNrWn2yGs
+      gQ12gYS4dxIAoWoSAKFqNngNYPsyMjJ6ugk2Q84APUxqgnuW9ZwBClLYXTm2pdCkm1Wl72ZX
+      2tVWS1zwmjCJKQG3Pg1afmQ9fyqbztuxQW0/wqzzH62j+PGVRHncfV1hedZzBqjIQV9Y22O7
+      l5pg22Q9Z4BeQGqCbY/NBECpziZ50yY+y68FHPCc/BSLngzGWQPcyOHT/dcI+0Eo/Zo2KDnJ
+      1oNFjHzyB4Q2Lywg5R+lBPwogoH3tFepCbZ2thEAJYut8TvQLnyJ1SOd0SjVZCe9Q/wmeCMu
+      GK29Ew1nk0h/LJSpTXXDaccoq1a4lF5FaNPC/FSSq/14+J53LDXB1s56rgHu4Oym/+PmvOXE
+      jHQ2lRNqnBkZs5yffOevbNEDeBA1349DW05SB1B3gh35U3j6lwsI+uJj9ApAFUe35zH9hyHt
+      liTqNy9j2bKX+fWzP+eF+D+z65SBCYvfbu7+3E7DsDF+XNqfyI7D6eSV3eQ7QyOIDG998DeW
+      RO59i5c35jBi4WsslJrgbmMTZwBFccTZ8fblzs6t7hj5BhKY9zlZygQC0k7zbegitGgJCCjk
+      RA6E+GRwjnDm3+Emk5RE2h6bOAN4eDqQd7GqzdI6Ll64gVvzAT2CwNGZZOQoZGU0MCbQdKj5
+      BvqTm5GPkpVBdVAA93KTVUoibYdtBGDCI3DgY1ofO/W5e9hX8QiTmrsnGgLG+JGRkUzG1VEE
+      NB3pAePwz8viWEYhAQH3fjNeSiJtg1V1gUoOrmNZSuvMhjDv7ViC+k3lmQWlrH3tDT4P9sHx
+      2iXOFrkz+4UYWh/S2rGhePw1gbMzXmFu89IRBLr9D++dnc4rc+kQKYm0frZVEllvoNJQDxYo
+      PbQoC5dE9u3b12JNUzurOgPclZ2u5Yeq3kSjxclVLm97I9sKgEoEBgb2dBM6rbeVRNrERbAQ
+      nSUBEKomARCqJgEQqiYXwVbIVqdJNSRs7tZ2gDWcAZQ6agxt52K0HVIS2bM6GYACUhITSdyZ
+      1m6aS05uJTExsZ2pTjug/AjrPjp/y+v1y7bSwVlRu0ymSbVNnQxABTn59vQt3MWxdubyPbm/
+      nL72+e1MddoFTqOYNjuC7i46lJJI29T5LtCDLoRHDOJMmpkEFKRxZlAE4S73oYel9WRMuB9u
+      lv/kuzKVRJr+BvpFEP2rl4m8vJWD+a2bN4Zwv55oneiMLl0EO4RPwntVGgXR3ni3Wl6Qdgbv
+      SStxKD7YZgsDuQcSSDxaQAPQx3sqC+KiaP3Ml1KdzdFt2zlkmt8Udx9HavsMblmhKh3TrKgP
+      NT66XEDK7krGNr+G26dOLSBldxkewwr5dOcxsopvYO8zmZ8+F0WfU9vYnnyOSzXQP2wOLy6c
+      0IFwSUmktevaXSBNMGHeH5OaH41382PH+aR+OYKJT2ig+NbVS5LX837RDFa89RzOGqi/lMSa
+      9cn8dHmk6alNg56E+P24xT3DqkVuphLCc9t582SrD6ktxDQratMBX0GOvpiRtwSg7dSpFeR8
+      spvM2XOYuyIaNzuFor3xvLGqmJnzY3nhrUVoNQZO/+U1ks5O6MAcAlISae262EfREDwxgHNp
+      rfoA+Wmc8xvHqNu+4LI4nDyIOXFhpkJ1wM7rCWYOSuZwlul1waGd1M5aTMxot5ZpRQe44NC1
+      Rpp4TCR62mjc7Ezt9hw6BEZPJXrsYLQaAB1DvJxR7umOTD2GsjyOJ6xmj2MsM+42TeqINtOk
+      hps7+FumSY2Tkshu0+XfATSjxuG35QRZMb4EAPlp5/APj7m9rra8gAv9PHi4ppLKVot1bo5c
+      KCiHAIXzX7oT9pve+48v06Tanq7/EKYJJDxoC2eyICAgn7Rz/oyLMbOeotBQnclnSZfb/AP7
+      Msb/O4BpOBOHXvzUsNQE2x6L/BIcMDGMbZ9noKDn3JiJmDv+cR+IxwO1fG9BDO31GBz6FlJc
+      AiG9fJjA5kqw+ARYEUeY852/s001waa6YKVoL/EJKYQuj2ysCjPVBEe5F3FgdTwJditlVIhu
+      ZJn7lL7hjC04w67UC4wNb+fw1gQx3v8Ldhy+TOtutlKdTW4JgAsPhffl6L7W99UVqkvLuPOA
+      iBo05UWUtPrQ+rKv+Ppq+1tYgtQE2wYLPQvkTWhQFvGnIlgxr711tIT81y8o3riOl4/0Z5S/
+      EzX5uZT2GcOc50YC0G9KHLO+WsOKFYcJGulETW4BfUZ7mT9gmgUSOXMPf1j5J9M2+XncGB7B
+      gG7oS0hNsPXrkZpgpa6GmjoFO50rOjOd6HpDJYZ62n3fnM5s021kmtR70hMPw/XI06AarRN3
+      KpG107nS0dLezmzTbaQmuNeSx6GtkEyTajm9/3FoIe6ju14DpKamdldbhOh2tjUwlgqkpqYS
+      Hm69U3Bcv369Vw3sJV0goWoSAKFqEgChahIAoWoSANGtetMFMEgAhMpJAISqSQCEqkkAhKpJ
+      AISqSQCEqsnj0FatnkvHE9m860su3LDHZ+ws5i2YjFdzxY3C5dMf8v7HGdxwn8DsRU8S3Lp+
+      WcnnSFIJox6fiOedy+7MU6rJPrqN7Zcnsiw2yMzbZ9nzwTaO5l6B/v5MfWoRTwY7twyKYMjl
+      QMJmUr6xZ/jj81gw2euWYqGKtN2c1H6PKAuPEFZfdop9/zjEyW+qwSisyqlTp5r/+8qRNcYl
+      aw4aC24ajUbjTWPBwTXGJWuOGK80vt+QucX4+gepxqoGo7GhcL8xPn6/sbh56wZj4Z41xg2p
+      1zreiIZaY9G//2b83ZLlxj+8vdz4sw/SzKyTadyyZLlxU3qVscFoNDZUpRs3LV9i3JLZ0NR6
+      45F1vzfuKbhpNBqvGdM++K3xg7Talu2vpRo3rNljLGy4/aO7ovL4euOS1/9mPPb1ZWNtg9Eo
+      XSCrlcUne7XMfiay8RvfDq/IZ5it3csnjQON5ZzJJfgx00BkGs9IZgxII71pJOqKY2wreJgf
+      h3Wi7jhjBxuzAlj45ipe+k8/s6tUHdtLxqRFzGn8xtc4BzNn0SQy9h6jCqAqndQ+jzDdyw7Q
+      ERI1nkJ9TuPWCllJhxgwOwpPSw+S5PtD3nhtPpP9+qPVyDWA9SrKJdsnjNBbjl8doWE+ZOcW
+      AVBXCw7Nw+pp0GgaGke+q0O/+2smLJhIp8rug+fy6vwIBmvbOzoVcrOvMC7U95YxoDS+oYy7
+      kk2uAtTWct3BoWUcpAc1NA/LV5LMYe1TRPtafogwF0/PW/6fJQDWqqyUG54etw2kpfXw5EZp
+      GQAubnClomnIljpqa/vi4ABKVhInfX7ARJ1CXU1l4+TillROWckQBg9uu3wwg4eUUFYOuLrS
+      7/KVlvklamsxjYpWwdGkah6L9kVTb6Cy8v5OICIXwVbMwcHMqKkODs1jqfpOfYSk/93EqYWz
+      GHzhQ5IdZ/CyYxHJ/3IjOs4efcLr7DX4M+h6LlVjn+GFSEsOy2hulD8tDg6YhsbUjme615v8
+      7YAnc8Pg+LYcvrsgBsPpDymdFMOU0mTWvvclLv59Kc3V8cQrcVh6vDDl8mkJgDX7VvnW3EKa
+      l/abyi+fO0fyZ0kUDnmcF+YPo/KzDdx8dBHuGX/nL7oFrIjzR4OBE++8x9HwpUzrZ6nWKaYe
+      jcbMMgA0BMxdiu74pxw4Yk/IT15krPNZNn3iS0zcdY6uzuS7r7zEZB0o+TtYvTOD4HmBFgqo
+      wuUTH7BmV610gayW1oGqomLa9g6U4iKqWn31agaMISp2AbMmD8O56ihJVx/lCV8N5RfzGDLC
+      v/GA0uE7/DoXujqdVTMHHPoWUVzadnkpxUV9W12X6PCaPIsFsVGMHfggWUlf4PX9iego4MKN
+      kc3zRmh8/RiUdxHLzCSlUHRgNW+mePP8m7+WAFgtn+GMyM7kq1sSoPBVZjYjhvuY2cDAiY8y
+      eOiJgG4YfdoFvxENnM9sMz9WRSbnG0bg53L7Fkp+Ep/YRTLFYmcg85T8JN499RC/WRqFl51c
+      BFsvbTiPjTvLruSi5rOAUpTMrrPjeCz89kG4DKe38LlvDBMbv1Xdh/lRmJPbuK2B3Gx7fLxv
+      26zTvKdMR5O8k5ZhTg3odyajmT6F23ajFHFg+1Wmzmy6a+SNj302uY3bKrk5FPoNMz+cZAfl
+      nDiGx39Mb769KqNCWJlbRoVQikhe+wc+ezCIQNdKMs5/y7TfLCWy7c1zg56NazN4+NW5BLT8
+      DIs+4fedugg+v3UZm/WNL+qvUXHDnn6Opt9wPSJfZPH33Bt3m8CqhIt4h/rAhTQKhsWxMi6k
+      za1XhaIDa9nm8DS/ntry9a8UJbPO4hfB5SS/9Rr7q1xwaPzqlwBYmduHRVGoq6mhTtGgdXKi
+      3Vvz7ag3VFKnccKpoxve+w5Mt1ntdLh2dNBWpY6aGgVtF8dTvRO5C2T1NGidXDs9sYadzvW+
+      HVyNO8C1s4O2arQ43ecBX+UaQKiaBEComgRAqJoEQKiaBEComgRAqJoEQKiaBEComgRAqJoE
+      QKiaBEComgRAqJoEQKiaBEComgRAqJoEQKiaBEComgRAqJoEQKiaBEComgRAqJoEQKiaBECo
+      mgRAqJoEQKiaBEComgRAqJoEQKiaBEComgRAqJoEQKiaBEComgRAqJoEQKja/wMWIe6p2s3u
+      8wAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='86' name='Investigation Results' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='67' name='Model Performance Metrics' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
